@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pheval_phenogenius"
+name = "pheval-phenogenius"
 version = "0.0.0"
 description = "pheval_phenogenius"
 authors = ["Yasemin Bridges <y.bridges@qmul.ac.uk>"]
@@ -7,10 +7,11 @@ license = "Apache Software License 2.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.11,<4.0.0"
 click = "*"
 importlib-metadata = ">=8.2.0"
 pheval = "^0.4.0"
+phenogenius-cli = {git = "https://github.com/kyauy/PhenoGeniusCli.git"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = {version = ">=8.3.2"}
@@ -31,7 +32,7 @@ mkdocs-click = "^0.8.0"
 griffe = "0.38.1"
 
 [tool.poetry.scripts]
-pheval_phenogenius = "pheval_phenogenius.cli:main"
+pheval-phenogenius = "pheval_phenogenius.cli:main"
 
 [tool.poetry.plugins."pheval.plugins"]
 pheval_phenogenius_runner = "pheval_phenogenius.runner:PhEvalPhenoGeniusRunner"
@@ -50,6 +51,8 @@ lint.extend-ignore = [
     "D211",  # `no-blank-line-before-class`
     "D212",  # `multi-line-summary-first-line`
     "D203",  # `blank-line-before-docstring`
+    "S603",
+    "S607",
     ]
 line-length = 120
 
