@@ -28,7 +28,7 @@ jobs:
         echo ${{ secrets.GH_TOKEN }} >> src/pheval_phenogenius/token.txt
         mkdir gh-pages
         touch gh-pages/.nojekyll
-        python ./src/pheval_genius/utils/docs_gen.py
+        python ./src/docs/docs_gen.py
         export PYTHONPATH=$(pwd)
         poetry run mkdocs build
         mv site/* ./gh-pages/
