@@ -4,7 +4,7 @@ This is the project description.
 
 # Docs
 
-https://yaseminbridges.github.io/pheval_phenogenius/
+https://yaseminbridges.github.io/pheval.phenogenius/
 
 # Acknowledgements
 
