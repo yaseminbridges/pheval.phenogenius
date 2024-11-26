@@ -35,7 +35,7 @@ griffe = "0.38.1"
 pheval-phenogenius = "pheval_phenogenius.cli:main"
 
 [tool.poetry.plugins."pheval.plugins"]
-pheval_phenogenius_runner = "pheval_phenogenius.runner:PhEvalPhenoGeniusRunner"
+pheval_phenogenius_runner = "pheval_phenogenius.runner:PhenoGeniusPhEvalRunner"
 
 [tool.poetry-dynamic-versioning]
 enable = true
