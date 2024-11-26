@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://yaseminbridges.github.io/pheval_phenogenius/</loc>
+         <lastmod>2024-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://yaseminbridges.github.io/pheval_phenogenius/api/pheval_phenogenius/cli/</loc>
+         <lastmod>2024-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://yaseminbridges.github.io/pheval_phenogenius/api/pheval_phenogenius/main/</loc>
+         <lastmod>2024-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://yaseminbridges.github.io/pheval_phenogenius/api/pheval_phenogenius/runner/</loc>
+         <lastmod>2024-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://yaseminbridges.github.io/pheval_phenogenius/api/pheval_phenogenius/post_process/post_process/</loc>
+         <lastmod>2024-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://yaseminbridges.github.io/pheval_phenogenius/api/pheval_phenogenius/post_process/post_process_results_format/</loc>
+         <lastmod>2024-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://yaseminbridges.github.io/pheval_phenogenius/api/pheval_phenogenius/run/prepare_commands/</loc>
+         <lastmod>2024-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://yaseminbridges.github.io/pheval_phenogenius/api/pheval_phenogenius/run/run/</loc>
+         <lastmod>2024-11-26</lastmod>
+    </url>
+</urlset>
