@@ -10,7 +10,7 @@ from pheval_phenogenius.run.run import run
 
 
 @dataclass
-class PhEvalPhenoGeniusRunner(PhEvalRunner):
+class PhenoGeniusPhEvalRunner(PhEvalRunner):
     """Runner class implementation."""
 
     input_dir: Path
