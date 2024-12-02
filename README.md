@@ -74,7 +74,7 @@ The overall structure of the input directory should look something like so:
 
 ### Setting up the testdata directory
 
-The PhenoGenius plugin for PhEval accepts phenopackets as an input for running GADO. 
+The PhenoGenius plugin for PhEval accepts phenopackets as an input for running PhenoGenius. 
 
 The testdata directory should include a subdirectory named phenopackets:
 
