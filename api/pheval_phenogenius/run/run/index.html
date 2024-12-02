@@ -441,7 +441,7 @@
 <span class="sd">        tool_input_commands_dir (Path): Path to the tool input commands directory.</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="n">input_dir</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="s2">&quot;PhenoGeniusCLI&quot;</span><span class="p">))</span>
+    <span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="n">input_dir</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="s2">&quot;PhenoGeniusCli&quot;</span><span class="p">))</span>
     <span class="n">write_commands</span><span class="p">(</span><span class="n">testdata_dir</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="s2">&quot;phenopackets&quot;</span><span class="p">),</span> <span class="n">input_dir</span><span class="p">,</span> <span class="n">raw_results_dir</span><span class="p">,</span> <span class="n">tool_input_commands_dir</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Running commands...&quot;</span><span class="p">)</span>
     <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span>
