@@ -18,7 +18,7 @@ def run(testdata_dir: Path, input_dir: Path, raw_results_dir: Path, tool_input_c
         tool_input_commands_dir (Path): Path to the tool input commands directory.
 
     """
-    os.chdir(input_dir.joinpath("PhenoGeniusCLI"))
+    os.chdir(input_dir.joinpath("PhenoGeniusCli"))
     write_commands(testdata_dir.joinpath("phenopackets"), input_dir, raw_results_dir, tool_input_commands_dir)
     print("Running commands...")
     subprocess.run(
