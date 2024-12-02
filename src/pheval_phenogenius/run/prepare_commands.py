@@ -94,7 +94,7 @@ class CommandsWriter:
             f"--hpo_list "
             f"{','.join(parameters.hpo_list)} "
             f"--result_file "
-            f"{parameters.result_file} "
+            f"{parameters.result_file}\n"
         )
 
     def close(self):
